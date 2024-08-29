@@ -43,7 +43,7 @@ function AboutMe() {
           </a>
         </p>
         <p className="text-gray-600 text-center mb-8">
-          Selalu senang ketika bisa berbagi denganmu, silakan kunjungi <a href="/projects">proyek</a> atau <a href="mailto:radjashiqnals@gmail.com" className="text-blue-500 hover:underline">hubungi saya</a> untuk berbagi pengalaman atau berkolaborasi!
+          Selalu senang ketika bisa berbagi denganmu, silakan kunjungi <a href="/projects">proyek</a> atau <a href="mailto:radjagentasaputra@gmail.com" className="text-blue-500 hover:underline">hubungi saya</a> untuk berbagi pengalaman atau berkolaborasi!
         </p>
       </div>
     </div>
