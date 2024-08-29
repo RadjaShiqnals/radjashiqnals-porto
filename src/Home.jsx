@@ -42,7 +42,7 @@ function Home() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <div className="flex items-center justify-center">
-          <img src="public/assets/img/about-me-profile.jpg" alt="Radja Shiqnals" className="w-32 h-32 rounded-full object-cover" />
+          <img src="src/assets/img/about-me-profile.jpg" alt="Radja Shiqnals" className="w-32 h-32 rounded-full object-cover" />
         </div>
         <h1 className="pt-6 text-3xl font-bold  text-gray-800 mb-4 text-center">
           <motion.span
