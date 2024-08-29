@@ -12,5 +12,5 @@ Currently, two official plugins are available for React with Vite:
 ## Deployment Status
 
 You can check the deployment status of this project on Netlify:
-
+Website : radjashiqnals-portofolio.netlify.app
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3f27cce3-46a2-48d2-8bd6-b77814040f3c/deploy-status)](https://app.netlify.com/sites/radjashiqnals-portofolio/deploys)
