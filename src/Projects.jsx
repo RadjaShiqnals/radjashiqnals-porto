@@ -10,11 +10,11 @@ const Projects = () => {
       title: "Medtrack",
       description:
         "Ini adalah sebuah website yang mirip seperti puskesmas, dimana di sini terdapat informasi kesehatan seperti cara merawat perut, pembuangan sampah sehat, tips-tips menjaga kesehatan, dan juga toko beli obat yang terdiri dari obat-obatan untuk sakit perut, pusing, flu, dll. dengan harga yang terjangkau.",
-      image: "src/assets/img/MedTrackLogo.png",
+      image: "public/assets/img/MedTrackLogo.png",
       designImages: [
-        "src/assets/img/MedTrack1.png",
-        "src/assets/img/MedTrack2.png",
-        "src/assets/img/MedTrack3.png",
+        "public/assets/img/MedTrack1.png",
+        "public/assets/img/MedTrack2.png",
+        "public/assets/img/MedTrack3.png",
       ],
       url: "https://www.figma.com/design/lsYYkr3WivyFrGkZNYAWK5/MedTrack--nai-archive?node-id=0-1&node-type=CANVAS&t=Q0nZ34F9n1mB65PE-0",
       urlname: "Figma Link",
@@ -24,11 +24,11 @@ const Projects = () => {
       title: "Toko Online",
       description:
         "Toko Online adalah sebuah aplikasi e-commerce sederhana dengan fitur CRUD auth, data manipulasi untuk pengelolaan atau pembelian produk. Aplikasi ini juga memiliki fitur admin yang dapat mengelola data pengguna dan produk.",
-      image: "src/assets/img/TokoOnline.jpeg",
+      image: "public/assets/img/TokoOnline.jpeg",
       designImages: [
-        "src/assets/img/TokoOnline2.jpeg",
-        "src/assets/img/TokoOnline3.jpeg",
-        "src/assets/img/TokoOnline4.jpeg",
+        "public/assets/img/TokoOnline2.jpeg",
+        "public/assets/img/TokoOnline3.jpeg",
+        "public/assets/img/TokoOnline4.jpeg",
       ],
       url: "https://github.com/RadjaShiqnals/TokoOnline",
       urlname: "Github Link",
@@ -38,11 +38,11 @@ const Projects = () => {
       title: "Java Project",
       description:
         "Program ini adalah sebuah program sederhana yang dibuat dengan menggunakan bahasa pemrograman Java. Program ini dapat menghitung luas dan volume bangun ruang seperti balok, kubus, dan tabung.",
-      image: "src/assets/img/Java.png",
+      image: "public/assets/img/Java.png",
       designImages: [
-        "src/assets/img/Java1.png",
-        "src/assets/img/Java2.png",
-        "src/assets/img/Java3.png",
+        "public/assets/img/Java1.png",
+        "public/assets/img/Java2.png",
+        "public/assets/img/Java3.png",
       ],
       url: "https://github.com/RadjaShiqnals/JavaProject",
       urlname: "Github Link",

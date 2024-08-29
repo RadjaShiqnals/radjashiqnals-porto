@@ -13,7 +13,7 @@ function AboutMe() {
         
         <div className="flex justify-around items-center mb-4">
           <div className="w-24 rounded-full overflow-hidden">
-            <img src="src/assets/img/about-me-profile.png" alt="Radja Shiqnals" className="w-full h-full object-cover" />
+            <img src="public/assets/img/about-me-profile.png" alt="Radja Shiqnals" className="w-full h-full object-cover" />
           </div>
         </div>
         <p className="text-gray-600 text-center mb-8">
@@ -28,17 +28,17 @@ function AboutMe() {
           <b>Social Media</b>
           <br />
           <a href="https://www.youtube.com/@RadjaShiqnals" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-            <img src="src/assets/img/youtube.png" alt="youtube" className="w-6 mr-2 inline" />
+            <img src="public/assets/img/youtube.png" alt="youtube" className="w-6 mr-2 inline" />
             RadjaShiqnals
           </a>
           <br />
           <a href="https://twitter.com/RadjaShiqnals" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-            <img src="src/assets/img/XSocialMedia.png" alt="X" className="w-6 mr-2 inline" />
+            <img src="public/assets/img/XSocialMedia.png" alt="X" className="w-6 mr-2 inline" />
             RadjaShiqnals
           </a>
           <br />
           <a href="https://www.linkedin.com/in/radja-genta-saputra/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-            <img src="src/assets/img/linkedin.png" alt="linkedin" className="w-6 mr-2 inline" />
+            <img src="public/assets/img/linkedin.png" alt="linkedin" className="w-6 mr-2 inline" />
             Radja Genta Saputra
           </a>
         </p>
