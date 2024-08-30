@@ -7,6 +7,12 @@ import Projects from './Projects';
 import Footer from './Footer';
 
 
+// This component is the main entry point of the application.
+// It renders a router which navigates between the different pages of the app.
+// It also renders a header and a footer.
+// The header contains a navigation menu which allows the user to switch between pages.
+// The footer contains a copyright notice and a link to the author's GitHub profile.
+// The background of the app is a rain animation which is generated dynamically.
 
 function App() {
   useEffect(() => {

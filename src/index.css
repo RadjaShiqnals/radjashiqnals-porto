@@ -1,111 +1,166 @@
+/* Set up the base styles for the app, including font, colors, and layout */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+  /* Set the font family and line height */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+
+  /* Set the font weight */
   font-weight: 400;
 
+  /* Set the color scheme and default colors */
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  /* Improve font rendering */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Style links */
 a {
+  /* Make links bold */
   font-weight: 500;
+  /* Set the default link color */
   color: #646cff;
+  /* Remove the underline */
   text-decoration: inherit;
 }
+
 a:hover {
+  /* Change the link color on hover */
   color: #535bf2;
 }
 
+/* Set the body margin to 0 */
 body {
   margin: 0;
 
+  /* Uncomment this line to set a background color for the body */
   /* background-color: rgb(34, 52, 67); */
 }
+
+/* Create a rain effect */
 .background-rain {
+  /* Set the background color of the rain effect */
   background-color: #4567b7; /* blueish color */
+  /* Set the z-index to 1 so it appears behind the text and button */
   z-index: 1;
 }
+
 .rain {
+  /* Set the position of the rain effect */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  /* Make it so the user can't interact with the rain effect */
   pointer-events: none;
+  /* Set the background color of the rain effect */
   background: transparent;
-  pointer-events: none;
-  z-index: -999; /* Set a lower z-index to keep it behind the text and button */
+  /* Set the z-index to -999 so it appears behind the text and button */
+  z-index: -999;
 }
 
+/* Create individual raindrops */
 .raindrop {
+  /* Set the position of the raindrop */
   position: absolute;
   bottom: 100%;
+  /* Set the width and height of the raindrop */
   width: 2px;
   height: 50px;
+  /* Set the background color of the raindrop */
   background: rgba(255, 255, 255, 0.174); /* Adjust opacity if needed */
+  /* Make the raindrop fall */
   animation: fall linear infinite;
 }
 
+/* Animate the raindrop falling */
 @keyframes fall {
   to {
+    /* Move the raindrop down the page */
     transform: translateY(100vh);
   }
 }
 
+/* Style headings */
 h1 {
+  /* Set the font size and line height */
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+/* Smooth scrolling for links */
 html {
   scroll-behavior: smooth;
 }
 
+/* Style buttons */
 button {
+  /* Set the border radius */
   border-radius: 8px;
+  /* Set the border color */
   border: 1px solid transparent;
+  /* Set the padding */
   padding: 0.6em 1.2em;
+  /* Set the font size and weight */
   font-size: 1em;
   font-weight: 500;
+  /* Set the font family */
   font-family: inherit;
+  /* Set the background color */
   background-color: #1a1a1a;
+  /* Set the cursor to a pointer */
   cursor: pointer;
+  /* Animate the border color */
   transition: border-color 0.25s;
 }
+
 button:hover {
+  /* Change the border color on hover */
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
+  /* Set a focus ring */
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Adjust styles for light mode */
 @media (prefers-color-scheme: light) {
   :root {
+    /* Set the text color */
     color: #213547;
+    /* Set the background color */
     background-color: #ffffff;
   }
+
   a:hover {
+    /* Change the link color on hover */
     color: #747bff;
   }
+
   button {
+    /* Set the background color */
     background-color: #f9f9f9;
   }
 }
 
+/* Adjust styles for small screens */
 @media (max-width: 639px) {
   body {
-    padding-top: 80px; /* Add padding-top for mobile device */
+    /* Add padding to the top of the page */
+    padding-top: 80px;
   }
 }
 

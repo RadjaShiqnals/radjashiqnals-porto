@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+/**
+ * This component renders a list of projects and their details.
+ * When a project is clicked, it will show a modal with the project's details
+ */
 const Projects = () => {
   const [selectedId, setSelectedId] = useState(null);
 
@@ -9,7 +13,7 @@ const Projects = () => {
       id: 1,
       title: "Medtrack",
       description:
-        "Ini adalah sebuah website yang mirip seperti puskesmas, dimana di sini terdapat informasi kesehatan seperti cara merawat perut, pembuangan sampah sehat, tips-tips menjaga kesehatan, dan juga toko beli obat yang terdiri dari obat-obatan untuk sakit perut, pusing, flu, dll. dengan harga yang terjangkau.",
+        "This is a website that is similar to a health clinic, where you can find information about health, such as how to take care of your stomach, how to dispose of waste properly, tips on how to stay healthy, and also a pharmacy where you can buy medicine for stomach problems, headaches, flu, and other diseases.",
       image: "src/assets/img/MedTrackLogo.png",
       designImages: [
         "src/assets/img/MedTrack1.png",
@@ -23,7 +27,7 @@ const Projects = () => {
       id: 2,
       title: "Toko Online",
       description:
-        "Toko Online adalah sebuah aplikasi e-commerce sederhana dengan fitur CRUD auth, data manipulasi untuk pengelolaan atau pembelian produk. Aplikasi ini juga memiliki fitur admin yang dapat mengelola data pengguna dan produk.",
+        "This is a simple e-commerce application with CRUD auth, data manipulation for managing or buying products. The application also has an admin feature that can manage user and product data.",
       image: "src/assets/img/TokoOnline.jpeg",
       designImages: [
         "src/assets/img/TokoOnline2.jpeg",
@@ -37,7 +41,7 @@ const Projects = () => {
       id: 3,
       title: "Java Project",
       description:
-        "Program ini adalah sebuah program sederhana yang dibuat dengan menggunakan bahasa pemrograman Java. Program ini dapat menghitung luas dan volume bangun ruang seperti balok, kubus, dan tabung.",
+        "This is a simple program made with Java programming language. The program can calculate the area and volume of rectangular solids.",
       image: "src/assets/img/Java.png",
       designImages: [
         "src/assets/img/Java1.png",
@@ -130,7 +134,6 @@ const Projects = () => {
                     </div>
                   ))}
                 </div>
-                
                 <p className="text-gray-600 mt-4">
                   {projects.find((proj) => proj.id === selectedId).description}
                 </p>
@@ -158,8 +161,4 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-
-
 
